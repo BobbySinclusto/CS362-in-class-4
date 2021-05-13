@@ -2,7 +2,6 @@ import unittest
 import palindrome
 
 class TestCasePalindrome(unittest.TestCase):
-    # ADD
     def test_palindrome_good(self):
         self.assertEqual(palindrome.is_palindrome('testing'), False)
         self.assertEqual(palindrome.is_palindrome('bob'), True)
